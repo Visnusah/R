@@ -1,0 +1,117 @@
+# R History and Session Data
+.RData
+.Rhistory
+.Rapp.history
+
+# R Project User-specific files
+.Rproj.user/
+.Rproj.user
+
+# RStudio files
+*.Rproj
+
+# Session Data files
+.RData
+.RDataTmp
+
+# R Environment Variables
+.Renviron
+.Renviron.local
+
+# OAuth tokens
+.httr-oauth
+.oauth-token
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sensitive Data and Credentials
+# SECURITY: Uncomment these if you have sensitive data
+# *.csv
+# *.xlsx
+# *.xls
+# *.json
+config.json
+secrets.json
+credentials.json
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.local
+.env.*.local
+
+# API Keys and Passwords
+*password*
+*secret*
+*api_key*
+*apikey*
+*credentials*
+*token*
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Large data files (uncomment if needed)
+# *.rds
+# *.rda
+# *.RData
+# data/
+# raw_data/
+
+# Output and Cache
+cache/
+*.log
+*.out
+logs/
+
+# Package development files
+*.tar.gz
+*.zip
+packrat/lib*/
+packrat/src/
+
+# Python (if using reticulate)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Documentation
+docs/_build/
+*.pdf
+*.html
+
+# Build and output directories
+output/
+results/
+plots/
+figures/
+
+# Shiny app specific
+rsconnect/
