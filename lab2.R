@@ -65,4 +65,12 @@ typeof(a) # double
 class(a) # numeric
 
 #***************************************************
-#new
+ggplot(tennis, aes(y=height)) +
+  geom_boxplot()
+
+ggplot(tennis, aes(x=gender, y=height)) +
+  geom_boxplot()
+
+ggplot(tennis, aes(x=gender, y=age)) +
+  geom_boxplot()
+
