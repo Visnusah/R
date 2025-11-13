@@ -51,6 +51,10 @@ ncol(tennis) #6
 dim(tennis) # 20 6 -> metrix form
 
 colnames(tennis) # "name"   "rank"   "age"    "height" "weight" "gender"
+tennis[1,] # rows
+tennis[,1] # cols
+tennis[]
+names(tennis) # "name"   "rank"   "age"    "height" "weight" "gender"
 summary(tennis)
 
 View(tennis)
@@ -65,12 +69,6 @@ typeof(a) # double
 class(a) # numeric
 
 #***************************************************
-ggplot(tennis, aes(y=height)) +
-  geom_boxplot()
 
-ggplot(tennis, aes(x=gender, y=height)) +
-  geom_boxplot()
 
-ggplot(tennis, aes(x=gender, y=age)) +
-  geom_boxplot()
 
