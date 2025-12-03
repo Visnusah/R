@@ -74,3 +74,4 @@ view(diamonds)
 summary(diamonds)
 
 
+
